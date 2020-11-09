@@ -68,10 +68,11 @@ S3 is charged for:
 
 * AES-256 Use Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3)
 * AWS-KMS Use Server-Side Encryption with AWS KMS-Managed Keys (SSE-KMS)
-* Server-Side Encryption with Customer-Provided Keys (SSE-C)
+* Server-Side Encryption with Customer-Provided Keys (SSE-C) only on CLI or S3 rest API not on console
 
 * Control access to the bucket using bucket ACL or Bucket policies
 * By default all buckets and objects within are private
+
 
 ### [S3 Version Control](https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html)
 
@@ -190,3 +191,35 @@ On console: Amazon S3 => Your_Bucket => Permissions => Bucket Policy
 ```
 
 _[!!! Read the S3 FAQs before the exam !!!](https://aws.amazon.com/s3/faqs/)_
+
+# Extras:
+* infrastructure.aws 
+## Upload:
+* CLI enables the Multipart upload when over 100 Mb
+* Cloudfront -> Pops 
+* snowball, snowmobile 
+## Use cases:
+* ideal:Spiky data access
+## costs:
+* only data out 
+## storage class:
+* default is standard -replication in all AZ's
+* Standard IA: 30 days billing for Standard-IA mini 128 Kb and per Gb fees 
+* onezone- same 30 days, 128Kb 
+* Glacier, cold storage 90 days 
+* Glacier deep archove -> 12 hours 180 days - an oldest one
+* inteligent tierung - no admin overhead a mix of the 
+## Lifecycle:
+* one way to cost saving technique
+* applies to all object
+* Transition is possible like after 30 days move to Standard -IA and then Glacier and so on
+* ACL is alternative to bucket plicy on object level
+
+##  Sample lab:
+* http://aws-cas-continental-2020.s3-website-us-west-2.amazonaws.com/
+* https://aws.qwiklabs.com/classrooms/40850
+
+## AccessCL:
+* 
+
+
