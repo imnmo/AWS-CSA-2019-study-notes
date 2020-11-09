@@ -78,7 +78,7 @@ S3 is charged for:
 * Once you enable versioning, you can't disable it, you can only suspend it. A way of disabling it is to delete the bucket and re-create it
 * Every time you update an object, it will become private by default.
 * It integrates with Lifecycle rules.
-* You pay for each version you have
+* You pay for each version you have -> versioning costs lot of money and that why its not default
 * Delete an object:
 
     Once you delete a file inside a versioned bucket, you don't delete the file, you simply add a Delete Marker (this basically creates a new version of the object)
