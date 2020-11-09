@@ -256,3 +256,13 @@ Lambda is charged as follow:
 * Your functions can't go over 5 minutes in run-time.
 
 _Make sure you have a look at what [CORS](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) is._
+
+
+# Extras:
+* device stop and rebooting any on instance store in Ephemral
+ -> nice demo reboot will see the mount but the stop and start wont as the same instance host (in reboot) but start and stop wont
+ -> you get a pop-up while stopping the instance
+* Savings plans: Lmabda and FARGATE 
+-> CLUSTER-> LATENCY
+-> SPERAD: ha
+-> 
