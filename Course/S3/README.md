@@ -95,6 +95,7 @@ S3 is charged for:
 
 ### [S3 Cross region replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr.html)
 
+* Its called as CORS
 * Regions must be unique
 * Cross region replication doesn't replicate existing object by default, only new ones (after the replicate is set) will be replicated automatically.
 * In order to replicate the existing objects, you need to do a `cp` using the aws cli:
