@@ -265,4 +265,4 @@ _Make sure you have a look at what [CORS](https://docs.aws.amazon.com/AmazonS3/l
 * Savings plans: Lmabda and FARGATE 
 -> CLUSTER-> LATENCY
 -> SPERAD: ha
--> 
+-> question about whitelisting specific IP in the SG for the NFS -> inbound you can use to allow but if its elastic how about that?? 
