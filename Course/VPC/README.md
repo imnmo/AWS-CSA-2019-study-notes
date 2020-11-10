@@ -78,3 +78,39 @@ VPC Flow Logs is a feature that enables you to capture information about the IP 
 ### [VPC Enpoints](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-endpoints.html)
 
 A VPC endpoint enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by PrivateLink without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection.
+
+## Extras:
+### When having default VPC:
+* Deafult VPC are deleteable
+* creates defaults Subnets and has IP CIDR /20 -> 4090 IP address
+* there is IG -> 
+* there is NACL and SG all are setup 
+
+### ENI:
+* its like NIC
+* 
+
+### NACL:
+* lower the number higher the priority
+* HA -- system of recover man druiving to McD and hilton hotel and taking stairs as highly available 
+* Fault tolerance - Plane engine failure and switch - recovery without noticing
+* 
+### Custom VPC
+* VPC canoot span region
+* 5 VPC pre region per account 
+
+### Route table
+* never edit main routr table create new RT
+
+
+## NAT instance:
+* bastion host and on EC2 instance - self managed host
+
+# ROle:
+
+Role cannot be loggedin
+-> logging in not role and no assocaition with username and password
+## Launch template vs launcg configuration:
+
+* Launch template is the new way in comparision to launch configuration
+* 
